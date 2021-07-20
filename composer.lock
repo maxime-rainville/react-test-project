@@ -1607,12 +1607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "16284289c7b015be7c9e3e2b0205c824fcfebd79"
+                "reference": "d9edc07eadd594501c040cc85b150d17b8570332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/16284289c7b015be7c9e3e2b0205c824fcfebd79",
-                "reference": "16284289c7b015be7c9e3e2b0205c824fcfebd79",
+                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/d9edc07eadd594501c040cc85b150d17b8570332",
+                "reference": "d9edc07eadd594501c040cc85b150d17b8570332",
                 "shasum": ""
             },
             "require": {
@@ -1675,7 +1675,7 @@
             "support": {
                 "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/react-component-bootstrap-poc"
             },
-            "time": "2021-03-04T02:21:30+00:00"
+            "time": "2021-07-20T22:01:46+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
