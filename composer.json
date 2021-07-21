@@ -38,5 +38,11 @@
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src/",
+            "App\\Tests\\": "app/tests/php/"
+        }
+    }
 }
