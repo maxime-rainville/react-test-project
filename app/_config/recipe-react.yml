@@ -1,0 +1,8 @@
+---
+Name: silverstripe-recipe-react
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'app/client/dist/js/bundle.js'
+  extra_requirements_css:
+    - 'app/client/dist/styles/bundle.css'

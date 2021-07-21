@@ -7,3 +7,4 @@
 .graphql/
 .idea/
 public/admin.types.graphql
+/node_modules/

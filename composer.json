@@ -9,8 +9,7 @@
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/login-forms": "4.x-dev",
         "marczhermo/sscounter": "dev-master",
-        "maxime-rainville/silverstripe-react": "dev-master",
-        "silverstripe/admin": "dev-pulls/1/react-component-bootstrap-poc as 1.x-dev"
+        "maxime-rainville/silverstripe-react": "dev-master"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7",
@@ -30,17 +29,14 @@
             ".htaccess",
             "index.php",
             "web.config"
+        ],
+        "expose": [
+            "app/client/dist"
         ]
     },
     "config": {
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-        "type": "vcs",
-        "url": "git@github.com:creative-commoners/silverstripe-admin.git"
-        }
-    ]
+    "minimum-stability": "dev"
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1546144c9f43c4bec00820968773b26d",
+    "content-hash": "4d75e2747195a6acdf95f3f40940cef9",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -909,12 +909,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marczhermo/sscounter.git",
-                "reference": "319d67c72d0b622a4cd4421d91a04db1689f0e64"
+                "reference": "a868dfdcb364eca3a09b3db7495337b9bc271f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marczhermo/sscounter/zipball/319d67c72d0b622a4cd4421d91a04db1689f0e64",
-                "reference": "319d67c72d0b622a4cd4421d91a04db1689f0e64",
+                "url": "https://api.github.com/repos/marczhermo/sscounter/zipball/a868dfdcb364eca3a09b3db7495337b9bc271f62",
+                "reference": "a868dfdcb364eca3a09b3db7495337b9bc271f62",
                 "shasum": ""
             },
             "require": {
@@ -949,9 +949,9 @@
             ],
             "support": {
                 "issues": "https://github.com/marczhermo/sscounter/issues",
-                "source": "https://github.com/marczhermo/sscounter/tree/0.0.8"
+                "source": "https://github.com/marczhermo/sscounter/tree/master"
             },
-            "time": "2019-09-13T01:58:07+00:00"
+            "time": "2021-07-20T23:45:03+00:00"
         },
         {
             "name": "maxime-rainville/silverstripe-react",
@@ -959,12 +959,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxime-rainville/silverstripe-react.git",
-                "reference": "3cb10ac68cd2e78301143437032f4cbfb881e091"
+                "reference": "15b333756679d9a49bd5eea37b3c064af2d812d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxime-rainville/silverstripe-react/zipball/3cb10ac68cd2e78301143437032f4cbfb881e091",
-                "reference": "3cb10ac68cd2e78301143437032f4cbfb881e091",
+                "url": "https://api.github.com/repos/maxime-rainville/silverstripe-react/zipball/15b333756679d9a49bd5eea37b3c064af2d812d4",
+                "reference": "15b333756679d9a49bd5eea37b3c064af2d812d4",
                 "shasum": ""
             },
             "require": {
@@ -1001,7 +1001,7 @@
                 "issues": "https://github.com/maxime-rainville/silverstripe-react/issues",
                 "source": "https://github.com/maxime-rainville/silverstripe-react/tree/master"
             },
-            "time": "2021-07-20T10:06:44+00:00"
+            "time": "2021-07-21T03:09:59+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1603,16 +1603,16 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "dev-pulls/1/react-component-bootstrap-poc",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/creative-commoners/silverstripe-admin.git",
-                "reference": "d9edc07eadd594501c040cc85b150d17b8570332"
+                "url": "https://github.com/silverstripe/silverstripe-admin.git",
+                "reference": "0a4e034ea5d8b5dacb4725dd272761817f191309"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creative-commoners/silverstripe-admin/zipball/d9edc07eadd594501c040cc85b150d17b8570332",
-                "reference": "d9edc07eadd594501c040cc85b150d17b8570332",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/0a4e034ea5d8b5dacb4725dd272761817f191309",
+                "reference": "0a4e034ea5d8b5dacb4725dd272761817f191309",
                 "shasum": ""
             },
             "require": {
@@ -1645,14 +1645,7 @@
                     "SilverStripe\\Admin\\Tests\\Behat\\Context\\": "tests/behat/src/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "phpcs code/ tests/php/"
-                ],
-                "lint-clean": [
-                    "phpcbf code/ tests/php/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1673,9 +1666,10 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/creative-commoners/silverstripe-admin/tree/pulls/1/react-component-bootstrap-poc"
+                "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
+                "source": "https://github.com/silverstripe/silverstripe-admin/tree/1"
             },
-            "time": "2021-07-20T22:01:46+00:00"
+            "time": "2021-07-08T11:15:46+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -5698,21 +5692,13 @@
             "time": "2021-03-09T10:59:23+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "silverstripe/admin",
-            "version": "dev-pulls/1/react-component-bootstrap-poc",
-            "alias": "1.x-dev",
-            "alias_normalized": "1.9999999.9999999.9999999-dev"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/recipe-cms": 20,
         "silverstripe/login-forms": 20,
         "marczhermo/sscounter": 20,
-        "maxime-rainville/silverstripe-react": 20,
-        "silverstripe/admin": 20
+        "maxime-rainville/silverstripe-react": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
