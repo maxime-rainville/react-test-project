@@ -924,7 +924,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
             },
-            "default-branch": true,
             "type": "silverstripe-vendormodule",
             "extra": {
                 "expose": [
@@ -947,10 +946,6 @@
                 "form",
                 "silverstripe"
             ],
-            "support": {
-                "issues": "https://github.com/marczhermo/sscounter/issues",
-                "source": "https://github.com/marczhermo/sscounter/tree/master"
-            },
             "time": "2021-07-20T23:45:03+00:00"
         },
         {
@@ -959,12 +954,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxime-rainville/silverstripe-react.git",
-                "reference": "15b333756679d9a49bd5eea37b3c064af2d812d4"
+                "reference": "eddfebf4ad058b405bf08b86e493cbaf88f11cdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxime-rainville/silverstripe-react/zipball/15b333756679d9a49bd5eea37b3c064af2d812d4",
-                "reference": "15b333756679d9a49bd5eea37b3c064af2d812d4",
+                "url": "https://api.github.com/repos/maxime-rainville/silverstripe-react/zipball/eddfebf4ad058b405bf08b86e493cbaf88f11cdc",
+                "reference": "eddfebf4ad058b405bf08b86e493cbaf88f11cdc",
                 "shasum": ""
             },
             "require": {
@@ -975,7 +970,6 @@
                 "phpunit/phpunit": "^5.7",
                 "squizlabs/php_codesniffer": "^3.0"
             },
-            "default-branch": true,
             "type": "silverstripe-vendormodule",
             "extra": {
                 "expose": [
@@ -997,11 +991,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "support": {
-                "issues": "https://github.com/maxime-rainville/silverstripe-react/issues",
-                "source": "https://github.com/maxime-rainville/silverstripe-react/tree/master"
-            },
-            "time": "2021-07-21T03:09:59+00:00"
+            "time": "2021-07-21T03:56:05+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1665,10 +1655,6 @@
                 "admin",
                 "silverstripe"
             ],
-            "support": {
-                "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
-                "source": "https://github.com/silverstripe/silverstripe-admin/tree/1"
-            },
             "time": "2021-07-08T11:15:46+00:00"
         },
         {
@@ -5706,5 +5692,5 @@
         "php": "^7.1 || ^8"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
