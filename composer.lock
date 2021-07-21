@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d75e2747195a6acdf95f3f40940cef9",
+    "content-hash": "65f224dfc024d444a587a492c026c2b5",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -905,26 +905,26 @@
         },
         {
             "name": "marczhermo/sscounter",
-            "version": "dev-master",
+            "version": "dev-modern-react",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marczhermo/sscounter.git",
-                "reference": "a868dfdcb364eca3a09b3db7495337b9bc271f62"
+                "reference": "a790f970e8091ac7e9caa946546e3577948a663e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marczhermo/sscounter/zipball/a868dfdcb364eca3a09b3db7495337b9bc271f62",
-                "reference": "a868dfdcb364eca3a09b3db7495337b9bc271f62",
+                "url": "https://api.github.com/repos/marczhermo/sscounter/zipball/a790f970e8091ac7e9caa946546e3577948a663e",
+                "reference": "a790f970e8091ac7e9caa946546e3577948a663e",
                 "shasum": ""
             },
             "require": {
+                "maxime-rainville/silverstripe-react": "dev-master",
                 "php": ">=7.1",
                 "silverstripe/framework": "^4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
             },
-            "default-branch": true,
             "type": "silverstripe-vendormodule",
             "extra": {
                 "expose": [
@@ -949,9 +949,9 @@
             ],
             "support": {
                 "issues": "https://github.com/marczhermo/sscounter/issues",
-                "source": "https://github.com/marczhermo/sscounter/tree/master"
+                "source": "https://github.com/marczhermo/sscounter/tree/modern-react"
             },
-            "time": "2021-07-20T23:45:03+00:00"
+            "time": "2021-07-21T03:33:15+00:00"
         },
         {
             "name": "maxime-rainville/silverstripe-react",
@@ -959,12 +959,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxime-rainville/silverstripe-react.git",
-                "reference": "15b333756679d9a49bd5eea37b3c064af2d812d4"
+                "reference": "eddfebf4ad058b405bf08b86e493cbaf88f11cdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxime-rainville/silverstripe-react/zipball/15b333756679d9a49bd5eea37b3c064af2d812d4",
-                "reference": "15b333756679d9a49bd5eea37b3c064af2d812d4",
+                "url": "https://api.github.com/repos/maxime-rainville/silverstripe-react/zipball/eddfebf4ad058b405bf08b86e493cbaf88f11cdc",
+                "reference": "eddfebf4ad058b405bf08b86e493cbaf88f11cdc",
                 "shasum": ""
             },
             "require": {
@@ -1001,7 +1001,7 @@
                 "issues": "https://github.com/maxime-rainville/silverstripe-react/issues",
                 "source": "https://github.com/maxime-rainville/silverstripe-react/tree/master"
             },
-            "time": "2021-07-21T03:09:59+00:00"
+            "time": "2021-07-21T03:56:05+00:00"
         },
         {
             "name": "monolog/monolog",
