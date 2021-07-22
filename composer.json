@@ -9,7 +9,8 @@
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/login-forms": "4.x-dev",
         "marczhermo/sscounter": "dev-modern-react",
-        "maxime-rainville/silverstripe-react": "dev-master"
+        "maxime-rainville/silverstripe-react": "dev-master",
+        "dnadesign/silverstripe-elemental": "^4"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7",
