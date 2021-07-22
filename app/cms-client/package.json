@@ -1,7 +1,7 @@
 {
   "name": "silverstripe-app",
   "description": "Description of your module",
-  "main": "./app/client/src/boot/index.js",
+  "main": "src/boot/index.js",
   "author": "You",
   "engines": {
     "node": ">=10.x"
@@ -14,10 +14,10 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "lock": "npm-shrinkwrap --dev",
-    "lint": "eslint app/client/src && sass-lint --verbose app/client/src/**/*.scss",
-    "lint-js": "eslint app/client/src",
-    "lint-js-fix": "eslint app/client/src --fix",
-    "lint-sass": "sass-lint app/client/src"
+    "lint": "eslint src && sass-lint --verbose src/**/*.scss",
+    "lint-js": "eslint src",
+    "lint-js-fix": "eslint src --fix",
+    "lint-sass": "sass-lint src"
   },
   "dependencies": {
     "babel-polyfill": "6.7.4",
@@ -45,9 +45,9 @@
       "app/client/src"
     ],
     "modulePaths": [
-      "client/src",
-      "vendor/silverstripe/admin/client/src",
-      "vendor/silverstripe/admin/node_modules"
+      "src",
+      "../../vendor/silverstripe/admin/client/src",
+      "../../vendor/silverstripe/admin/node_modules"
     ],
     "collectCoverageFrom": [
       "**/*.{js,jsx}",

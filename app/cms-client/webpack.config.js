@@ -13,9 +13,9 @@ const ENV = process.env.NODE_ENV;
 const PATHS = {
   MODULES: 'node_modules',
   FILES_PATH: '../',
-  ROOT: Path.resolve(),
-  SRC: Path.resolve('app/client/src'),
-  DIST: Path.resolve('app/client/dist'),
+  ROOT: Path.resolve('../../'),
+  SRC: Path.resolve('src'),
+  DIST: Path.resolve('dist'),
 };
 
 const externals = externalJS(ENV, PATHS);

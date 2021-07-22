@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function () {
-    return <div>I'm rendered with React!!!</div>;
+    return <div>I&apos;m rendered with React!!!</div>;
 }
